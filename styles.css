@@ -1,0 +1,178 @@
+.Overall {
+    display: grid;
+    grid-area: 2 row 1 column;
+}
+
+#box1 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 10px;
+    padding: 25px 10px 60px 10px;
+    background-color: #4286f4;
+}
+
+#between {
+    height: 10px;
+    background-color: black;
+    color: black;
+    width: 100%;
+    border: none; 
+}
+
+#box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: none;
+}
+
+.JobTitle {
+    padding: 10px 15px 10px 15px;
+    border: solid 1px white;
+    
+}
+
+.JobTitle h1 {
+    text-align: center;
+}
+
+.JobTitle h3 {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+
+#box1 h1 {
+    color: white;
+    
+}
+
+#box1 h3 {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.Sans {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Sidebar {
+    background-color: rgb(218, 218, 218);
+}
+
+.Sidebar h2 {
+    padding-left: 10px;
+}
+
+.Sidebar p {
+    font-size: 12px;
+}
+
+#flex1 {
+    float: left;
+    margin: 0 1.5%;
+    width: 22.5%;    
+}
+
+#flex2 {
+    float: right;
+    margin: 0 1.5%;
+    width: 55%;
+    
+}
+
+#Spacing {
+    line-height: 1.5;
+}
+
+.ContactsInfo,
+.SocialInfo {
+    padding-left: 10px;
+    line-height: 2;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+#DisplayPic {
+    height: 175px;
+    width: 150px;
+    border-radius: 100%;
+    margin: 0 auto;
+
+}
+
+.SocialInfo img,
+.ContactsInfo img {
+    max-width: 7%;
+    float: left;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+}
+
+.left {
+    float: left;
+    width: 30%;
+
+}
+
+.right {
+    float: right;
+    width: 70%;
+}
+
+.texts {
+    font-size: 15px;
+    font-family: arial;
+}
+
+.topleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#break {
+    height: 2px;
+    background-color: black;
+    color: black;
+    width: 95%;
+    border: none; 
+}
+
+.breaker {
+    height: 1px;
+    background-color: black;
+    color: black;
+    width: 100%;
+    border: none; 
+}
+
+ul {
+    display: block;
+}
+
+ul li {
+    float: left;
+    width: 50%;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
