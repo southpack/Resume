@@ -1,38 +1,7 @@
-.Overall {
-    display: grid;
-    grid-area: 2 row 1 column;
-}
-
-#box1 {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 180px;
-    margin-bottom: 10px;
-    padding: 25px 10px 60px 10px;
-    background-color: #4286f4;
-}
-
-#between {
-    height: 10px;
-    background-color: black;
-    color: black;
-    width: 100%;
-    border: none; 
-}
-
-#box2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: none;
-}
 
 .JobTitle {
     padding: 10px 15px 10px 15px;
-    border: solid 1px white;
+    border: solid 1px black;
     
 }
 
@@ -72,22 +41,6 @@
     font-size: 12px;
 }
 
-#flex1 {
-    float: left;
-    margin: 0 1.5%;
-    width: 22.5%;    
-}
-
-#flex2 {
-    float: right;
-    margin: 0 1.5%;
-    width: 55%;
-    
-}
-
-#Spacing {
-    line-height: 1.5;
-}
 
 .ContactsInfo,
 .SocialInfo {
@@ -170,9 +123,63 @@ ul {
     display: block;
 }
 
-ul li {
+ul {
     float: left;
     width: 50%;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
 }
+li {
+    float: left;
+    width: 50%;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Overall {
+    display: grid;
+    grid-area: 2 row 1 column;
+}
+
+#box1 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    margin-bottom: 10px;
+    padding: 25px 10px 60px 10px;
+    background-color: #4286f4;
+}
+
+#between {
+    height: 10px;
+    background-color: black;
+    color: black;
+    width: 100%;
+    border: none; 
+}
+
+#box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: none;
+}
+#flex1 {
+    float: left;
+    margin: 0 1.5%;
+    width: 22.5%;    
+}
+
+#flex2 {
+    float: right;
+    margin: 0 1.5%;
+    width: 55%;
+    
+}
+
+#Spacing {
+    line-height: 1.5;
+}
+
